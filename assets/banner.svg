@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="csv-audit — profile a CSV and report data-quality problems">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#150f22"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6e40c9" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#6e40c9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="16" fill="none" stroke="#30363d"/>
+  <rect width="640" height="300" rx="16" fill="url(#glow)"/>
+  <rect x="84" y="124" width="15" height="15" rx="3" fill="none" stroke="#6e40c9" stroke-width="2.5" stroke-opacity="0.55"/><rect x="106" y="124" width="15" height="15" rx="3" fill="none" stroke="#6e40c9" stroke-width="2.5" stroke-opacity="0.55"/><rect x="128" y="124" width="15" height="15" rx="3" fill="none" stroke="#6e40c9" stroke-width="2.5" stroke-opacity="0.55"/><rect x="84" y="146" width="15" height="15" rx="3" fill="none" stroke="#6e40c9" stroke-width="2.5" stroke-opacity="0.55"/><rect x="106" y="146" width="15" height="15" rx="3" fill="none" stroke="#6e40c9" stroke-width="2.5" stroke-opacity="0.55"/><rect x="128" y="146" width="15" height="15" rx="3" fill="none" stroke="#6e40c9" stroke-width="2.5" stroke-opacity="0.55"/><rect x="84" y="168" width="15" height="15" rx="3" fill="none" stroke="#6e40c9" stroke-width="2.5" stroke-opacity="0.55"/><rect x="106" y="168" width="15" height="15" rx="3" fill="none" stroke="#6e40c9" stroke-width="2.5" stroke-opacity="0.55"/><rect x="128" y="168" width="15" height="15" rx="3" fill="none" stroke="#6e40c9" stroke-width="2.5" stroke-opacity="0.55"/><circle cx="156" cy="156" r="21" fill="#0d1117" fill-opacity="0.9" stroke="#a371f7" stroke-width="4"/><path d="M171 171 L182 182" stroke="#a371f7" stroke-width="5" stroke-linecap="round"/>
+  <text x="222" y="138" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="54" font-weight="700" fill="#f0f6fc" letter-spacing="-1">csv-audit</text>
+  <text x="225" y="180" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="23" fill="#8b949e">Know what's wrong with a CSV before you load it</text>
+  <g font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="15">
+    <rect x="224" y="212" width="148" height="36" rx="18" fill="#6e40c9" fill-opacity="0.16" stroke="#6e40c9" stroke-opacity="0.55"/><text x="298" y="236" text-anchor="middle" fill="#d2a8ff">0 dependencies</text><rect x="386" y="212" width="140" height="36" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#30363d"/><text x="456" y="236" text-anchor="middle" fill="#c9d1d9">CSV000-CSV013</text><rect x="540" y="212" width="148" height="36" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#30363d"/><text x="614" y="236" text-anchor="middle" fill="#c9d1d9">type inference</text><rect x="702" y="212" width="132" height="36" rx="18" fill="#ffffff" fill-opacity="0.04" stroke="#30363d"/><text x="768" y="236" text-anchor="middle" fill="#c9d1d9">--clean copy</text>
+  </g>
+  <text x="1248" y="52" text-anchor="end" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace" font-size="16" fill="#484f58">stdlib only</text>
+</svg>
